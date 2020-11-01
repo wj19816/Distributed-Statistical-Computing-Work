@@ -139,7 +139,7 @@ for line in sys.stdin:
 
 #### Result
 
-![image-20201026102632000](/Users/didi/Desktop/PM/20-分布式计算/work/1009-mapreduce/png/python+bash.png)
+![image-20201026102632000](png/python+bash.png)
 
 
 
@@ -164,7 +164,7 @@ awk -F ',' '{printf ("%s\t%s\t%s\t%s\n",  $1, $2, $10, $12)}'
 
 #### Result
 
-![image-20201026102610833](/Users/didi/Desktop/PM/20-分布式计算/work/1009-mapreduce/png/print-column.png)
+![image-20201026102610833](png/print-column.png)
 
 
 
@@ -195,7 +195,7 @@ print(count) #print goes to sys.stdout
 
 #### Result
 
-![image-20201026102814078](/Users/didi/Desktop/PM/20-分布式计算/work/1009-mapreduce/png/print-stdin.png)
+![image-20201026102814078](png/print-stdin.png)
 
 
 
@@ -244,7 +244,7 @@ close(input)
 
 #### Result
 
-![image-20201026103106126](/Users/didi/Desktop/PM/20-分布式计算/work/1009-mapreduce/png/stocks.png)
+![image-20201026103106126](png/stocks.png)
 
 
 
@@ -309,4 +309,4 @@ print("Total Survived:{}\tMale:{}\tFemale:{}\t\t\tAll passengers's average age i
 
 #### Result
 
-![image-20201026102121114](/Users/didi/Desktop/PM/20-分布式计算/work/1009-mapreduce/png/titanic.png)
+![image-20201026102121114](png/titanic.png)
