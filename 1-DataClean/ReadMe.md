@@ -35,7 +35,7 @@ TASKNAME=task_wj
 
 # hadoop client
 HADOOP_HOME=/usr/lib/hadoop-current
-HADOOP_PREFIX=/user/devel/2020211027wangjing
+HADOOP_PREFIX=/user/devel/path
 HADOOP_INPUT_DIR=${HADOOP_PREFIX}/sample_10000.csv
 HADOOP_OUTPUT_DIR=${HADOOP_PREFIX}/output/1015-preprocess/missing
 
@@ -216,7 +216,7 @@ TASKNAME=task_wj
 
 # hadoop client
 HADOOP_HOME=/usr/lib/hadoop-current
-HADOOP_PREFIX=/user/devel/2020211027wangjing
+HADOOP_PREFIX=/user/devel/path
 HADOOP_INPUT_DIR=${HADOOP_PREFIX}/sample_10000.csv
 HADOOP_OUTPUT_DIR=${HADOOP_PREFIX}/output/1015-preprocess/
 

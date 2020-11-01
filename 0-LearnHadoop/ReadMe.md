@@ -1,7 +1,5 @@
 # Distributed-Statistical-Computing HomeWork
 
-> **中央财经大学/应用统计20/王静/2020211027**
-
 ## 10/15: Hadoop Streaming
 
 [toc]
@@ -49,7 +47,7 @@ TASKNAME=task_wj
 
 #hadoop配置
 HADOOP_HOME=/usr/lib/hadoop-current              #hadoop安装路径
-HADOOP_PREFIX=/user/devel/2020211027wangjing     #hadoop文件存放路径
+HADOOP_PREFIX=/user/devel/path     #hadoop文件存放路径
 HADOOP_INPUT_DIR=${HADOOP_PREFIX}/${INPUTFILE}   #输入文件在hadoop上的存放路径
 HADOOP_OUTPUT_DIR=${HADOOP_PREFIX}/output/${OUTPUTPATH}    #输出文件夹在hadoop上的路径
 
