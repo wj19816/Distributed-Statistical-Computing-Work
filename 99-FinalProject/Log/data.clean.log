@@ -1,0 +1,229 @@
+:: loading settings :: file = /usr/local/Cellar/spark/spark-2.4.7/external_jars/.ivy2/ivysettings.xml
+root
+ |-- MachineIdentifier: string (nullable = true)
+ |-- ProductName: string (nullable = true)
+ |-- EngineVersion: string (nullable = true)
+ |-- AppVersion: string (nullable = true)
+ |-- AvSigVersion: string (nullable = true)
+ |-- IsBeta: integer (nullable = true)
+ |-- RtpStateBitfield: integer (nullable = true)
+ |-- IsSxsPassiveMode: integer (nullable = true)
+ |-- DefaultBrowsersIdentifier: integer (nullable = true)
+ |-- AVProductStatesIdentifier: integer (nullable = true)
+ |-- AVProductsInstalled: integer (nullable = true)
+ |-- AVProductsEnabled: integer (nullable = true)
+ |-- HasTpm: integer (nullable = true)
+ |-- CountryIdentifier: integer (nullable = true)
+ |-- CityIdentifier: integer (nullable = true)
+ |-- OrganizationIdentifier: integer (nullable = true)
+ |-- GeoNameIdentifier: integer (nullable = true)
+ |-- LocaleEnglishNameIdentifier: integer (nullable = true)
+ |-- Platform: string (nullable = true)
+ |-- Processor: string (nullable = true)
+ |-- OsVer: string (nullable = true)
+ |-- OsBuild: integer (nullable = true)
+ |-- OsSuite: integer (nullable = true)
+ |-- OsPlatformSubRelease: string (nullable = true)
+ |-- OsBuildLab: string (nullable = true)
+ |-- SkuEdition: string (nullable = true)
+ |-- IsProtected: integer (nullable = true)
+ |-- AutoSampleOptIn: integer (nullable = true)
+ |-- PuaMode: string (nullable = true)
+ |-- SMode: integer (nullable = true)
+ |-- IeVerIdentifier: integer (nullable = true)
+ |-- SmartScreen: string (nullable = true)
+ |-- Firewall: integer (nullable = true)
+ |-- UacLuaenable: integer (nullable = true)
+ |-- Census_MDC2FormFactor: string (nullable = true)
+ |-- Census_DeviceFamily: string (nullable = true)
+ |-- Census_OEMNameIdentifier: integer (nullable = true)
+ |-- Census_OEMModelIdentifier: integer (nullable = true)
+ |-- Census_ProcessorCoreCount: integer (nullable = true)
+ |-- Census_ProcessorManufacturerIdentifier: integer (nullable = true)
+ |-- Census_ProcessorModelIdentifier: integer (nullable = true)
+ |-- Census_ProcessorClass: string (nullable = true)
+ |-- Census_PrimaryDiskTotalCapacity: integer (nullable = true)
+ |-- Census_PrimaryDiskTypeName: string (nullable = true)
+ |-- Census_SystemVolumeTotalCapacity: integer (nullable = true)
+ |-- Census_HasOpticalDiskDrive: integer (nullable = true)
+ |-- Census_TotalPhysicalRAM: integer (nullable = true)
+ |-- Census_ChassisTypeName: string (nullable = true)
+ |-- Census_InternalPrimaryDiagonalDisplaySizeInInches: float (nullable = true)
+ |-- Census_InternalPrimaryDisplayResolutionHorizontal: integer (nullable = true)
+ |-- Census_InternalPrimaryDisplayResolutionVertical: integer (nullable = true)
+ |-- Census_PowerPlatformRoleName: string (nullable = true)
+ |-- Census_InternalBatteryType: string (nullable = true)
+ |-- Census_InternalBatteryNumberOfCharges: integer (nullable = true)
+ |-- Census_OSVersion: string (nullable = true)
+ |-- Census_OSArchitecture: string (nullable = true)
+ |-- Census_OSBranch: string (nullable = true)
+ |-- Census_OSBuildNumber: integer (nullable = true)
+ |-- Census_OSBuildRevision: integer (nullable = true)
+ |-- Census_OSEdition: string (nullable = true)
+ |-- Census_OSSkuName: string (nullable = true)
+ |-- Census_OSInstallTypeName: string (nullable = true)
+ |-- Census_OSInstallLanguageIdentifier: integer (nullable = true)
+ |-- Census_OSUILocaleIdentifier: integer (nullable = true)
+ |-- Census_OSWUAutoUpdateOptionsName: string (nullable = true)
+ |-- Census_IsPortableOperatingSystem: integer (nullable = true)
+ |-- Census_GenuineStateName: string (nullable = true)
+ |-- Census_ActivationChannel: string (nullable = true)
+ |-- Census_IsFlightingInternal: integer (nullable = true)
+ |-- Census_IsFlightsDisabled: integer (nullable = true)
+ |-- Census_FlightRing: string (nullable = true)
+ |-- Census_ThresholdOptIn: integer (nullable = true)
+ |-- Census_FirmwareManufacturerIdentifier: integer (nullable = true)
+ |-- Census_FirmwareVersionIdentifier: integer (nullable = true)
+ |-- Census_IsSecureBootEnabled: integer (nullable = true)
+ |-- Census_IsWIMBootEnabled: integer (nullable = true)
+ |-- Census_IsVirtualDevice: integer (nullable = true)
+ |-- Census_IsTouchEnabled: integer (nullable = true)
+ |-- Census_IsPenCapable: integer (nullable = true)
+ |-- Census_IsAlwaysOnAlwaysConnectedCapable: integer (nullable = true)
+ |-- Wdft_IsGamer: integer (nullable = true)
+ |-- Wdft_RegionIdentifier: integer (nullable = true)
+ |-- HasDetections: integer (nullable = true)
+
+[INFO] 数据集中包含  8921483  行 与   83  列!
+[INFO]======原始数据读取完成!======
++--------------------+------------+-------------+------------+------------+------+----------------+----------------+-------------------------+-------------------------+-------------------+-----------------+------+-----------------+--------------+----------------------+-----------------+---------------------------+---------+---------+--------+-------+-------+--------------------+--------------------+----------+-----------+---------------+-------+-----+---------------+-----------+--------+------------+---------------------+-------------------+------------------------+-------------------------+-------------------------+--------------------------------------+-------------------------------+---------------------+-------------------------------+--------------------------+--------------------------------+--------------------------+-----------------------+----------------------+-------------------------------------------------+-------------------------------------------------+-----------------------------------------------+----------------------------+--------------------------+-------------------------------------+----------------+---------------------+---------------+--------------------+----------------------+----------------+----------------+------------------------+----------------------------------+---------------------------+--------------------------------+--------------------------------+-----------------------+------------------------+--------------------------+------------------------+-----------------+---------------------+-------------------------------------+--------------------------------+--------------------------+-----------------------+----------------------+---------------------+-------------------+---------------------------------------+------------+---------------------+-------------+
+|   MachineIdentifier| ProductName|EngineVersion|  AppVersion|AvSigVersion|IsBeta|RtpStateBitfield|IsSxsPassiveMode|DefaultBrowsersIdentifier|AVProductStatesIdentifier|AVProductsInstalled|AVProductsEnabled|HasTpm|CountryIdentifier|CityIdentifier|OrganizationIdentifier|GeoNameIdentifier|LocaleEnglishNameIdentifier| Platform|Processor|   OsVer|OsBuild|OsSuite|OsPlatformSubRelease|          OsBuildLab|SkuEdition|IsProtected|AutoSampleOptIn|PuaMode|SMode|IeVerIdentifier|SmartScreen|Firewall|UacLuaenable|Census_MDC2FormFactor|Census_DeviceFamily|Census_OEMNameIdentifier|Census_OEMModelIdentifier|Census_ProcessorCoreCount|Census_ProcessorManufacturerIdentifier|Census_ProcessorModelIdentifier|Census_ProcessorClass|Census_PrimaryDiskTotalCapacity|Census_PrimaryDiskTypeName|Census_SystemVolumeTotalCapacity|Census_HasOpticalDiskDrive|Census_TotalPhysicalRAM|Census_ChassisTypeName|Census_InternalPrimaryDiagonalDisplaySizeInInches|Census_InternalPrimaryDisplayResolutionHorizontal|Census_InternalPrimaryDisplayResolutionVertical|Census_PowerPlatformRoleName|Census_InternalBatteryType|Census_InternalBatteryNumberOfCharges|Census_OSVersion|Census_OSArchitecture|Census_OSBranch|Census_OSBuildNumber|Census_OSBuildRevision|Census_OSEdition|Census_OSSkuName|Census_OSInstallTypeName|Census_OSInstallLanguageIdentifier|Census_OSUILocaleIdentifier|Census_OSWUAutoUpdateOptionsName|Census_IsPortableOperatingSystem|Census_GenuineStateName|Census_ActivationChannel|Census_IsFlightingInternal|Census_IsFlightsDisabled|Census_FlightRing|Census_ThresholdOptIn|Census_FirmwareManufacturerIdentifier|Census_FirmwareVersionIdentifier|Census_IsSecureBootEnabled|Census_IsWIMBootEnabled|Census_IsVirtualDevice|Census_IsTouchEnabled|Census_IsPenCapable|Census_IsAlwaysOnAlwaysConnectedCapable|Wdft_IsGamer|Wdft_RegionIdentifier|HasDetections|
++--------------------+------------+-------------+------------+------------+------+----------------+----------------+-------------------------+-------------------------+-------------------+-----------------+------+-----------------+--------------+----------------------+-----------------+---------------------------+---------+---------+--------+-------+-------+--------------------+--------------------+----------+-----------+---------------+-------+-----+---------------+-----------+--------+------------+---------------------+-------------------+------------------------+-------------------------+-------------------------+--------------------------------------+-------------------------------+---------------------+-------------------------------+--------------------------+--------------------------------+--------------------------+-----------------------+----------------------+-------------------------------------------------+-------------------------------------------------+-----------------------------------------------+----------------------------+--------------------------+-------------------------------------+----------------+---------------------+---------------+--------------------+----------------------+----------------+----------------+------------------------+----------------------------------+---------------------------+--------------------------------+--------------------------------+-----------------------+------------------------+--------------------------+------------------------+-----------------+---------------------+-------------------------------------+--------------------------------+--------------------------+-----------------------+----------------------+---------------------+-------------------+---------------------------------------+------------+---------------------+-------------+
+|                null|        null|         null|        null|        null|  null|            null|            null|                     null|                     null|               null|             null|  null|             null|          null|                  null|             null|                       null|     null|     null|    null|   null|   null|                null|                null|      null|       null|           null|   null| null|           null|       null|    null|        null|                 null|               null|                    null|                     null|                     null|                                  null|                           null|                 null|                           null|                      null|                            null|                      null|                   null|                  null|                                             null|                                             null|                                           null|                        null|                      null|                                 null|            null|                 null|           null|                null|                  null|            null|            null|                    null|                              null|                       null|                            null|                            null|                   null|                    null|                      null|                    null|             null|                 null|                                 null|                            null|                      null|                   null|                  null|                 null|               null|                                   null|        null|                 null|         null|
+|000007535c3f730ef...|win8defender|  1.1.14600.4|4.13.17134.1|  1.263.48.0|     0|               7|               0|                     null|                    53447|                  1|                1|     1|               93|          1482|                    18|              119|                         64|windows10|      x64|10.0.0.0|  17134|    256|                 rs4|17134.1.amd64fre....|       Pro|          1|              0|   null|    0|            137|       null|       1|           1|             Notebook|    Windows.Desktop|                    2668|                    91656|                        4|                                     5|                           2405|                 null|                         476940|                       HDD|                          102385|                         0|                   4096|              Notebook|                                             13.9|                                             1366|                                            768|                      Mobile|                      null|                                    1|    10.0.17134.1|                amd64|    rs4_release|               17134|                     1|    Professional|    PROFESSIONAL|                IBSClean|                                 8|                         31|                         UNKNOWN|                               0|                OFFLINE|                  Retail|                      null|                       0|          NOT_SET|                 null|                                  628|                           57858|                         0|                   null|                     0|                    0|                  0|                                      0|           0|                    8|            0|
+|                null|        null|         null|        null|        null|  null|            null|            null|                     null|                     null|               null|             null|  null|             null|          null|                  null|             null|                       null|     null|     null|    null|   null|   null|                null|                null|      null|       null|           null|   null| null|           null|       null|    null|        null|                 null|               null|                    null|                     null|                     null|                                  null|                           null|                 null|                           null|                      null|                            null|                      null|                   null|                  null|                                             null|                                             null|                                           null|                        null|                      null|                                 null|            null|                 null|           null|                null|                  null|            null|            null|                    null|                              null|                       null|                            null|                            null|                   null|                    null|                      null|                    null|             null|                 null|                                 null|                            null|                      null|                   null|                  null|                 null|               null|                                   null|        null|                 null|         null|
++--------------------+------------+-------------+------------+------------+------+----------------+----------------+-------------------------+-------------------------+-------------------+-----------------+------+-----------------+--------------+----------------------+-----------------+---------------------------+---------+---------+--------+-------+-------+--------------------+--------------------+----------+-----------+---------------+-------+-----+---------------+-----------+--------+------------+---------------------+-------------------+------------------------+-------------------------+-------------------------+--------------------------------------+-------------------------------+---------------------+-------------------------------+--------------------------+--------------------------------+--------------------------+-----------------------+----------------------+-------------------------------------------------+-------------------------------------------------+-----------------------------------------------+----------------------------+--------------------------+-------------------------------------+----------------+---------------------+---------------+--------------------+----------------------+----------------+----------------+------------------------+----------------------------------+---------------------------+--------------------------------+--------------------------------+-----------------------+------------------------+--------------------------+------------------------+-----------------+---------------------+-------------------------------------+--------------------------------+--------------------------+-----------------------+----------------------+---------------------+-------------------+---------------------------------------+------------+---------------------+-------------+
+only showing top 3 rows
+
+[INFO] 缺失比例计算完成!
+(Census_ProcessorClass,0.9959)
+(Census_ProcessorModelIdentifier,0.0046)
+(Census_InternalPrimaryDiagonalDisplaySizeInInches,0.0053)
+(HasDetections,0.0)
+(SMode,0.0603)
+(Census_GenuineStateName,0.0)
+(Census_FlightRing,0.0)
+(OsBuildLab,0.0)
+(AppVersion,0.0)
+(SkuEdition,0.0)
+(Census_ProcessorCoreCount,0.0046)
+(GeoNameIdentifier,0.0)
+(Census_OSBranch,0.0)
+(Census_IsTouchEnabled,0.0)
+(Processor,0.0)
+(Census_ThresholdOptIn,0.6352)
+(Census_OSWUAutoUpdateOptionsName,0.0)
+(Platform,0.0)
+(Census_PowerPlatformRoleName,0.0)
+(Census_FirmwareVersionIdentifier,0.0179)
+(AvSigVersion,0.0)
+(Census_IsVirtualDevice,0.0018)
+(OrganizationIdentifier,0.3084)
+(DefaultBrowsersIdentifier,0.9514)
+(Wdft_RegionIdentifier,0.034)
+(Census_PrimaryDiskTypeName,0.0014)
+(Census_InternalBatteryType,0.7105)
+(Census_SystemVolumeTotalCapacity,0.0059)
+(Census_FirmwareManufacturerIdentifier,0.0205)
+(CityIdentifier,0.0365)
+(OsBuild,0.0)
+(Census_ActivationChannel,0.0)
+(OsPlatformSubRelease,0.0)
+(PuaMode,0.9997)
+(Census_OSInstallLanguageIdentifier,0.0067)
+(Census_OSBuildRevision,0.0)
+(Census_ChassisTypeName,1.0E-4)
+(Firewall,0.0102)
+(Census_IsSecureBootEnabled,0.0)
+(Census_IsPenCapable,0.0)
+(LocaleEnglishNameIdentifier,0.0)
+(UacLuaenable,0.0012)
+(Census_OEMNameIdentifier,0.0107)
+(Census_IsWIMBootEnabled,0.6344)
+(Census_HasOpticalDiskDrive,0.0)
+(SmartScreen,0.3561)
+(EngineVersion,0.0)
+(Census_IsPortableOperatingSystem,0.0)
+(Census_InternalPrimaryDisplayResolutionHorizontal,0.0053)
+(Census_InternalPrimaryDisplayResolutionVertical,0.0053)
+(Census_OSSkuName,0.0)
+(AVProductStatesIdentifier,0.0041)
+(MachineIdentifier,0.0)
+(Census_OSInstallTypeName,0.0)
+(OsVer,0.0)
+(Census_OEMModelIdentifier,0.0115)
+(Census_MDC2FormFactor,0.0)
+(OsSuite,0.0)
+(CountryIdentifier,0.0)
+(IsSxsPassiveMode,0.0)
+(Census_IsFlightsDisabled,0.018)
+(Census_PrimaryDiskTotalCapacity,0.0067)
+(IsProtected,0.004)
+(Census_InternalBatteryNumberOfCharges,0.2839)
+(Wdft_IsGamer,0.034)
+(IeVerIdentifier,0.0066)
+(IsBeta,0.0)
+(Census_IsFlightingInternal,0.8304)
+(HasTpm,0.0)
+(Census_DeviceFamily,0.0)
+(Census_OSBuildNumber,0.0)
+(Census_IsAlwaysOnAlwaysConnectedCapable,0.008)
+(Census_OSArchitecture,0.0)
+(AVProductsInstalled,0.0041)
+(AutoSampleOptIn,0.0)
+(Census_OSUILocaleIdentifier,0.0)
+(Census_OSEdition,0.0)
+(Census_TotalPhysicalRAM,0.009)
+(RtpStateBitfield,0.0036)
+(AVProductsEnabled,0.0041)
+(ProductName,0.0)
+(Census_OSVersion,0.0)
+(Census_ProcessorManufacturerIdentifier,0.0046)
+
+[INFO] 以下变量缺失比例大于40%:
+(Census_ProcessorClass,0.9959)
+(Census_ThresholdOptIn,0.6352)
+(DefaultBrowsersIdentifier,0.9514)
+(Census_InternalBatteryType,0.7105)
+(PuaMode,0.9997)
+(Census_IsWIMBootEnabled,0.6344)
+(Census_IsFlightingInternal,0.8304)
+
+[INFO] 经过第一步筛选后共剩下  43  个变量!
+变量  EngineVersion有3 种可能取值
+变量  AppVersion有9 种可能取值
+变量  AVProductStatesIdentifier有14 种可能取值
+变量  AVProductsInstalled有3 种可能取值
+变量  OrganizationIdentifier有3 种可能取值
+变量  GeoNameIdentifier有40 种可能取值
+变量  LocaleEnglishNameIdentifier有32 种可能取值
+变量  OsBuild有5 种可能取值
+变量  OsSuite有3 种可能取值
+变量  OsPlatformSubRelease有5 种可能取值
+变量  OsBuildLab有9 种可能取值
+变量  SkuEdition有3 种可能取值
+变量  IeVerIdentifier有9 种可能取值
+变量  SmartScreen有3 种可能取值
+变量  Census_MDC2FormFactor有3 种可能取值
+变量  Census_OEMNameIdentifier有15 种可能取值
+变量  Census_PrimaryDiskTypeName有3 种可能取值
+变量  Census_ChassisTypeName有4 种可能取值
+变量  Census_PowerPlatformRoleName有4 种可能取值
+变量  Census_OSVersion有38 种可能取值
+变量  Census_OSBranch有6 种可能取值
+变量  Census_OSBuildNumber有6 种可能取值
+变量  Census_OSBuildRevision有36 种可能取值
+变量  Census_OSEdition有4 种可能取值
+变量  Census_OSSkuName有4 种可能取值
+变量  Census_OSInstallTypeName有7 种可能取值
+变量  Census_OSInstallLanguageIdentifier有12 种可能取值
+变量  Census_OSUILocaleIdentifier有12 种可能取值
+变量  Census_OSWUAutoUpdateOptionsName有4 种可能取值
+变量  Census_ActivationChannel有4 种可能取值
+变量  Census_FirmwareManufacturerIdentifier有8 种可能取值
+变量  Census_IsSecureBootEnabled有2 种可能取值
+变量  Wdft_IsGamer有3 种可能取值
+变量  Wdft_RegionIdentifier有7 种可能取值
+
+[INFO]数据集中包含  6337614  行 与   43  列!
+[INFO] 数据清洗完成!
